@@ -27,6 +27,6 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Docker build centos 7 php73
-        run: docker build -t ./centos-php73-oci8 ./centos-php73-oci8
+        run: docker build -t ./centos7-php73-https-oci8 .
 
      
